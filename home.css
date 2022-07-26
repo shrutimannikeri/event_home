@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.container {
+    width: 97%;
+    margin: 0 auto;
+}
+.fullpage {
+    width: 100%;
+    float: left;
+}
+.searchevent {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+.eventlist {
+    width: 100%;
+    float: left;
+}
+.eventitems {
+    width: 25%;
+    float: left;
+}
+.eventitems:hover {
+    background: #0000ff0a;
+    transition: 0.6s;
+    transition-timing-function: ease-in;
+}
+.eventlist .row {
+    width: 100%;
+    float: left;
+}
+.cards {
+    width: 100%;
+    float: left;
+}
+.cardbody {
+    width: 100%;
+    float: left;
+}
+.evenimg {
+    width: 40%;
+    float: left;
+}
+.eventdetails {
+    width: 60%;
+    float: left;
+}
+img.imgsrc {
+    width: 100%;
+    float: left;
+}
+.cards {
+    width: 92%;
+    float: left;
+    margin: 2% 3%;
+    box-shadow: 0 0 2px 2px #80808047;
+    padding: 2%;
+}
+h2.cardheader {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 19px;
+    color: #0000ffc2;
+}
+.eventdetails p {
+    margin: 3px 6px;
+}
+p.detail button {
+    background: #0000ff94;
+    border: 0;
+    line-height: 2;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 10px;
+    cursor: pointer;
+}
+button.soldout {
+    background: red !important;
+    text-transform: capitalize;
+}
+/* mobile size  min 320px to 450px */
+@media only screen and (min-width: 320px) and (max-width: 450px){
+    .searchevent {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .eventitems {
+        width: 100%;
+        float: left;
+    }
+}
+/* tablet size  min 760 to 980px */
+ @media only screen and (min-width: 760px) and (max-width: 980px){
+    img.imgsrc {
+        width: 100%;
+        float: left;
+        height: 150px;
+    }
+    .eventitems {
+        width: 50%;
+        float: left;
+    }
+    .eventdetails p {
+        margin: 6px 10px;
+    }
+ }
+ @media only screen and (min-width: 480px) and (max-width: 760px) {
+
+    .eventitems {
+        width: 100%;
+        float: left;
+    }
+    .evenimg {
+        width: 47%;
+        float: left;
+    }
+    .eventdetails {
+        width: 53%;
+        float: left;
+    }
+    .eventdetails p {
+        margin: 5px 22px;
+    }
+    .searchevent {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+ }
